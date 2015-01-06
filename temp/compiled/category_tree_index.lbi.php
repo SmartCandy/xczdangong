@@ -27,43 +27,82 @@ if ($this->_foreach['no']['total'] > 0):
     foreach ($_from AS $this->_var['cat']):
         $this->_foreach['no']['iteration']++;
 ?>
+     
+        <?php if ($this->_foreach['no']['iteration'] == 1): ?>
+        		<div  class="dt" onMouseOver="sw_nav2(<?php echo $this->_foreach['no']['iteration']; ?>,1);" onMouseOut="sw_nav2(<?php echo $this->_foreach['no']['iteration']; ?>,1);" >
+        
+        <div id="HandleLI2_<?php echo $this->_foreach['no']['iteration']; ?>">
+	        <a    class="a    
+				<?php if (($this->_foreach['no']['iteration'] - 1) % 2 == 0): ?>
+			 	<?php else: ?>
+			 		t 
+				<?php endif; ?> 
+					"
+				 href="<?php echo $this->_var['cat']['url']; ?>">
+				 <?php echo htmlspecialchars($this->_var['cat']['name']); ?>
+				  <img src="themes/ecmoban_xiwang/images/biao8.gif">
+			</a>
+				<?php $_from = $this->_var['cat']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child');if (count($_from)):
+    foreach ($_from AS $this->_var['child']):
+?>
+		 	<div style=" background-color:#f3f3f3; color:#f00; font-weight:bold; padding-left:30px;">
+			 	<a class="over_2" href="<?php echo $this->_var['child']['url']; ?>"><?php echo htmlspecialchars($this->_var['child']['name']); ?></a>  
+			
+				<div class="clearfix">
+				<?php $_from = $this->_var['child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'childer');if (count($_from)):
+    foreach ($_from AS $this->_var['childer']):
+?>
+				<a class="over_3" href="<?php echo $this->_var['childer']['url']; ?>"><?php echo htmlspecialchars($this->_var['childer']['name']); ?></a>
+				<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+				</div>
+			</div>      
+			<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+		</div>
+       
+</div>
+       
+        <?php endif; ?>
+       
+	    
+	    <?php if ($this->_foreach['no']['iteration'] != 1): ?>
+        	
+        
         <div  class="dt" onMouseOver="sw_nav2(<?php echo $this->_foreach['no']['iteration']; ?>,1);" onMouseOut="sw_nav2(<?php echo $this->_foreach['no']['iteration']; ?>,0);" 
          
         >
         
         <div id="HandleLI2_<?php echo $this->_foreach['no']['iteration']; ?>">
-        <a    class="a    
-        <?php if (($this->_foreach['no']['iteration'] - 1) % 2 == 0): ?>
- <?php else: ?>
- t 
-<?php endif; ?> 
-"
- href="<?php echo $this->_var['cat']['url']; ?>">
- <?php echo htmlspecialchars($this->_var['cat']['name']); ?>
-  <img src="themes/ecmoban_xiwang/images/biao8.gif">
- </a>
-</div>
+	        <a    class="a    
+				<?php if (($this->_foreach['no']['iteration'] - 1) % 2 == 0): ?>
+			 	<?php else: ?>
+			 		t 
+				<?php endif; ?> 
+					"
+				 href="<?php echo $this->_var['cat']['url']; ?>">
+				 <?php echo htmlspecialchars($this->_var['cat']['name']); ?>
+				  <img src="themes/ecmoban_xiwang/images/biao8.gif">
+			</a>
+		</div>
         
-        
-        
-<dd  id=DisSub2_<?php echo $this->_foreach['no']['iteration']; ?> style="display:none"> 
-<?php $_from = $this->_var['cat']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child');if (count($_from)):
+		<dd  id=DisSub2_<?php echo $this->_foreach['no']['iteration']; ?> style="display:none"> 
+			<?php $_from = $this->_var['cat']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child');if (count($_from)):
     foreach ($_from AS $this->_var['child']):
 ?>
- <a class="over_2" href="<?php echo $this->_var['child']['url']; ?>"><?php echo htmlspecialchars($this->_var['child']['name']); ?></a>  
-
-<div class="clearfix">
-<?php $_from = $this->_var['child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'childer');if (count($_from)):
+			 	<a class="over_2" href="<?php echo $this->_var['child']['url']; ?>"><?php echo htmlspecialchars($this->_var['child']['name']); ?></a>  
+				
+				<div class="clearfix">
+				<?php $_from = $this->_var['child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'childer');if (count($_from)):
     foreach ($_from AS $this->_var['childer']):
 ?>
-<a class="over_3" href="<?php echo $this->_var['childer']['url']; ?>"><?php echo htmlspecialchars($this->_var['childer']['name']); ?></a>
-<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
-</div>   
-       
-<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
-</dd> 
+				<a class="over_3" href="<?php echo $this->_var['childer']['url']; ?>"><?php echo htmlspecialchars($this->_var['childer']['name']); ?></a>
+				<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+				</div>      
+			<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+		</dd> 
 </div>
+<?php endif; ?>
 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?> 
+
 </dl>
 </div>
  <div class="blank5"></div>

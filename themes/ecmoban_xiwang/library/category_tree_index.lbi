@@ -24,39 +24,74 @@
   <div class="tit">所有商品分类</div>
   <dl class="clearfix" >
      <!--{foreach from=$categories item=cat name=no}-->
+     
+        <!--{if $smarty.foreach.no.iteration eq 1}-->
+        		<div  class="dt" onMouseOver="sw_nav2({$smarty.foreach.no.iteration},1);" onMouseOut="sw_nav2({$smarty.foreach.no.iteration},1);" >
+        
+        <div id="HandleLI2_{$smarty.foreach.no.iteration}">
+	        <a    class="a    
+				<!--{if $smarty.foreach.no.index mod 2 eq 0}-->
+			 	<!-- {else} -->
+			 		t 
+				<!-- {/if} --> 
+					"
+				 href="{$cat.url}">
+				 {$cat.name|escape:html}
+				  <img src="../images/biao8.gif">
+			</a>
+				<!--{foreach from=$cat.cat_id item=child}-->
+		 	<div style=" background-color:#f3f3f3; color:#f00; font-weight:bold; padding-left:30px;">
+			 	<a class="over_2" href="{$child.url}">{$child.name|escape:html}</a>  
+			
+				<div class="clearfix">
+				<!--{foreach from=$child.cat_id item=childer}-->
+				<a class="over_3" href="{$childer.url}">{$childer.name|escape:html}</a>
+				<!--{/foreach}-->
+				</div>
+			</div>      
+			<!--{/foreach}-->
+		</div>
+       
+</div>
+       
+        <!--{/if}-->
+       
+	    
+	    <!--{if $smarty.foreach.no.iteration neq 1}-->
+        	
+        
         <div  class="dt" onMouseOver="sw_nav2({$smarty.foreach.no.iteration},1);" onMouseOut="sw_nav2({$smarty.foreach.no.iteration},0);" 
          
         >
         
         <div id="HandleLI2_{$smarty.foreach.no.iteration}">
-        <a    class="a    
-        <!--{if $smarty.foreach.no.index mod 2 eq 0}-->
- <!-- {else} -->
- t 
-<!-- {/if} --> 
-"
- href="{$cat.url}">
- {$cat.name|escape:html}
-  <img src="../images/biao8.gif">
- </a>
+	        <a    class="a    
+				<!--{if $smarty.foreach.no.index mod 2 eq 0}-->
+			 	<!-- {else} -->
+			 		t 
+				<!-- {/if} --> 
+					"
+				 href="{$cat.url}">
+				 {$cat.name|escape:html}
+				  <img src="../images/biao8.gif">
+			</a>
+		</div>
+        
+		<dd  id=DisSub2_{$smarty.foreach.no.iteration} style="display:none"> 
+			<!--{foreach from=$cat.cat_id item=child}-->
+			 	<a class="over_2" href="{$child.url}">{$child.name|escape:html}</a>  
+				
+				<div class="clearfix">
+				<!--{foreach from=$child.cat_id item=childer}-->
+				<a class="over_3" href="{$childer.url}">{$childer.name|escape:html}</a>
+				<!--{/foreach}-->
+				</div>      
+			<!--{/foreach}-->
+		</dd> 
 </div>
-        
-        
-        
-<dd  id=DisSub2_{$smarty.foreach.no.iteration} style="display:none"> 
-<!--{foreach from=$cat.cat_id item=child}-->
- <a class="over_2" href="{$child.url}">{$child.name|escape:html}</a>  
-
-<div class="clearfix">
-<!--{foreach from=$child.cat_id item=childer}-->
-<a class="over_3" href="{$childer.url}">{$childer.name|escape:html}</a>
-<!--{/foreach}-->
-</div>   
-       
-<!--{/foreach}-->
-</dd> 
-</div>
+<!--{/if}-->
 <!--{/foreach}--> 
+
 </dl>
 </div>
  <div class="blank5"></div>

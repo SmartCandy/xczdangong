@@ -18,21 +18,21 @@
 
 <div class="container" id="idTransformView">
   <ul class="slider" id="idSlider">
-  <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_43553200_1420275099');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
+  <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_24050900_1420518370');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['no']['total'] > 0):
-    foreach ($_from AS $this->_var['flash_0_43553200_1420275099']):
+    foreach ($_from AS $this->_var['flash_0_24050900_1420518370']):
         $this->_foreach['no']['iteration']++;
 ?>
-    <li><a href="<?php echo $this->_var['flash_0_43553200_1420275099']['url']; ?>" target="_blank"><img src="<?php echo $this->_var['flash_0_43553200_1420275099']['src']; ?>"/></a></li>
+    <li><a href="<?php echo $this->_var['flash_0_24050900_1420518370']['url']; ?>" target="_blank"><img src="<?php echo $this->_var['flash_0_24050900_1420518370']['src']; ?>"/></a></li>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 
   </ul>
   <ul class="num" id="idNum">
  
     
-     <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_43567700_1420275099');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
+     <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_24067300_1420518370');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['no']['total'] > 0):
-    foreach ($_from AS $this->_var['flash_0_43567700_1420275099']):
+    foreach ($_from AS $this->_var['flash_0_24067300_1420518370']):
         $this->_foreach['no']['iteration']++;
 ?>
      <li><?php echo $this->_foreach['no']['iteration']; ?></li> 

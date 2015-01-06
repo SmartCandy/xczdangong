@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:61:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/index.dwt";i:1;s:75:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/page_header.lbi";i:2;s:83:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/category_tree_index.lbi";i:3;s:73:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/microblog.lbi";i:4;s:72:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/index_ad.lbi";i:5;s:83:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/recommend_promotion.lbi";i:6;s:77:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/recommend_new.lbi";i:7;s:77:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/recommend_hot.lbi";i:8;s:78:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/recommend_best.lbi";i:9;s:68:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/help.lbi";i:10;s:75:"D:/wamp/www/xiaocezi/xiaocezi/themes/ecmoban_xiwang/library/page_footer.lbi";}s:7:"expires";i:1420284789;s:8:"maketime";i:1420281189;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:53:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/index.dwt";i:1;s:67:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/page_header.lbi";i:2;s:75:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/category_tree_index.lbi";i:3;s:65:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/microblog.lbi";i:4;s:64:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/index_ad.lbi";i:5;s:75:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/recommend_promotion.lbi";i:6;s:69:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/recommend_new.lbi";i:7;s:69:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/recommend_hot.lbi";i:8;s:70:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/recommend_best.lbi";i:9;s:60:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/help.lbi";i:10;s:67:"D:/wamp/www/xiaocezi3/themes/ecmoban_xiwang/library/page_footer.lbi";}s:7:"expires";i:1420532087;s:8:"maketime";i:1420528487;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -151,110 +151,122 @@
   <div id="category_tree">
   <div class="tit">所有商品分类</div>
   <dl class="clearfix" >
-             <div  class="dt" onMouseOver="sw_nav2(1,1);" onMouseOut="sw_nav2(1,0);" 
-         
-        >
+          
+                		<div  class="dt" onMouseOver="sw_nav2(1,1);" onMouseOut="sw_nav2(1,1);" >
         
         <div id="HandleLI2_1">
-        <a    class="a    
-          
-"
- href="category.php?id=1">
- 手机类型  <img src="themes/ecmoban_xiwang/images/biao8.gif">
- </a>
+	        <a    class="a    
+							 	 
+					"
+				 href="category.php?id=1">
+				 手机类型				  <img src="themes/ecmoban_xiwang/images/biao8.gif">
+			</a>
+						 	<div style=" background-color:#f3f3f3; color:#f00; font-weight:bold; padding-left:30px;">
+			 	<a class="over_2" href="category.php?id=2">CDMA手机</a>  
+			
+				<div class="clearfix">
+								</div>
+			</div>      
+					 	<div style=" background-color:#f3f3f3; color:#f00; font-weight:bold; padding-left:30px;">
+			 	<a class="over_2" href="category.php?id=3">GSM手机</a>  
+			
+				<div class="clearfix">
+								</div>
+			</div>      
+					 	<div style=" background-color:#f3f3f3; color:#f00; font-weight:bold; padding-left:30px;">
+			 	<a class="over_2" href="category.php?id=4">3G手机</a>  
+			
+				<div class="clearfix">
+								</div>
+			</div>      
+					 	<div style=" background-color:#f3f3f3; color:#f00; font-weight:bold; padding-left:30px;">
+			 	<a class="over_2" href="category.php?id=5">双模手机</a>  
+			
+				<div class="clearfix">
+								</div>
+			</div>      
+					</div>
+       
 </div>
+       
+               
+	    
+	         
+               
+	    
+	            	
         
-        
-        
-<dd  id=DisSub2_1 style="display:none"> 
- <a class="over_2" href="category.php?id=2">CDMA手机</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=3">GSM手机</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=4">3G手机</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=5">双模手机</a>  
-<div class="clearfix">
-</div>   
-       
-</dd> 
-</div>
         <div  class="dt" onMouseOver="sw_nav2(2,1);" onMouseOut="sw_nav2(2,0);" 
          
         >
         
         <div id="HandleLI2_2">
-        <a    class="a    
-         t 
- 
-"
- href="category.php?id=6">
- 手机配件  <img src="themes/ecmoban_xiwang/images/biao8.gif">
- </a>
+	        <a    class="a    
+							 		t 
+				 
+					"
+				 href="category.php?id=6">
+				 手机配件				  <img src="themes/ecmoban_xiwang/images/biao8.gif">
+			</a>
+		</div>
+        
+		<dd  id=DisSub2_2 style="display:none"> 
+						 	<a class="over_2" href="category.php?id=7">充电器</a>  
+				
+				<div class="clearfix">
+								</div>      
+						 	<a class="over_2" href="category.php?id=8">耳机</a>  
+				
+				<div class="clearfix">
+								</div>      
+						 	<a class="over_2" href="category.php?id=9">电池</a>  
+				
+				<div class="clearfix">
+								</div>      
+						 	<a class="over_2" href="category.php?id=11">读卡器和内存卡</a>  
+				
+				<div class="clearfix">
+								</div>      
+					</dd> 
 </div>
+     
+               
+	    
+	            	
         
-        
-        
-<dd  id=DisSub2_2 style="display:none"> 
- <a class="over_2" href="category.php?id=7">充电器</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=8">耳机</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=9">电池</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=11">读卡器和内存卡</a>  
-<div class="clearfix">
-</div>   
-       
-</dd> 
-</div>
         <div  class="dt" onMouseOver="sw_nav2(3,1);" onMouseOut="sw_nav2(3,0);" 
          
         >
         
         <div id="HandleLI2_3">
-        <a    class="a    
-          
-"
- href="category.php?id=12">
- 充值卡  <img src="themes/ecmoban_xiwang/images/biao8.gif">
- </a>
-</div>
+	        <a    class="a    
+							 	 
+					"
+				 href="category.php?id=12">
+				 充值卡				  <img src="themes/ecmoban_xiwang/images/biao8.gif">
+			</a>
+		</div>
         
-        
-        
-<dd  id=DisSub2_3 style="display:none"> 
- <a class="over_2" href="category.php?id=13">小灵通/固话充值卡</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=14">移动手机充值卡</a>  
-<div class="clearfix">
-</div>   
-       
- <a class="over_2" href="category.php?id=15">联通手机充值卡</a>  
-<div class="clearfix">
-</div>   
-       
-</dd> 
+		<dd  id=DisSub2_3 style="display:none"> 
+						 	<a class="over_2" href="category.php?id=13">小灵通/固话充值卡</a>  
+				
+				<div class="clearfix">
+								</div>      
+						 	<a class="over_2" href="category.php?id=14">移动手机充值卡</a>  
+				
+				<div class="clearfix">
+								</div>      
+						 	<a class="over_2" href="category.php?id=15">联通手机充值卡</a>  
+				
+				<div class="clearfix">
+								</div>      
+					</dd> 
 </div>
  
 </dl>
 </div>
  <div class="blank5"></div>
-<div class="blank"></div> 
+<div class="blank"></div>
 <div id="mallNews" class="box_1" style="height:330px;">
 <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=3115088613&verifier=c8ade9ba&dpc=1"></iframe>
 </div>
@@ -667,7 +679,7 @@ window.onload=function(){
     
             <div style=" line-height:22px;">
                                 &copy; 2005-2015 ECSHOP 版权所有，并保留所有权利。                 <br /> 
-                <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Flocalhost%3A8086%2Fxiaocezi%2Fxiaocezi%2F" target="_blank"
+                <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Flocalhost%2Fxiaocezi3%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
                             </div>
             <div align="center"><a href=" http://www.ecmoban.com" target="_blank"><img src="themes/ecmoban_xiwang/images/ecmoban.gif" alt="ECShop模板" /></a></div>
