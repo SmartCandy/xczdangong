@@ -142,9 +142,9 @@ if (!$smarty->is_cached('index.dwt', $cache_id))
     $smarty->assign('txt_links',       $links['txt']);
     $smarty->assign('data_dir',        DATA_DIR);       // 数据目录
 	
- 
-$smarty->assign("flash",get_flash_xml());
-$smarty->assign('flash_count',count(get_flash_xml()));
+    //添加首页幻灯插件
+    $smarty->assign("flash",get_flash_xml());
+    $smarty->assign('flash_count',count(get_flash_xml()));
 
 
 
