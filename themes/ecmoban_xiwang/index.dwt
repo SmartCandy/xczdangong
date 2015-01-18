@@ -18,7 +18,7 @@
 </head>
 <body class="index_page">
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
-
+<div style="height:51px;"></div>
 <div class="block clearfix">
 <div class="AreaL">
 <!-- #BeginLibraryItem "/library/category_tree_index.lbi" -->

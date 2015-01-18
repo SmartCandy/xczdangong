@@ -84,7 +84,7 @@
                             {/literal}
                         </script>
                         <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()"  style="_position:relative; top:5px;">
-                            <input name="keywords" type="text" id="keyword" class="keyword" value="{$search_keywords|escape}" placeholder="搜索 囍网商城 商品/婚纱/婚庆用品" />
+                            <input name="keywords" type="text" id="keyword" class="keyword" value="{$search_keywords|escape}" placeholder="搜索 小策子弹弓 弹弓相关产品" />
                             <input value="" id="seachbtn" type="submit"> 
                         </form>
                     </div> 
