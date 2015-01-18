@@ -274,7 +274,7 @@ font-size: 14px; font-weight:bold}
 .menu_box{ background:url(images/nav.png) repeat-x; height:51px; line-height:51px;}
 .menu_box a{line-height:51px; height:51px; float:left; color:#fff;font-size: 15px; padding:0 15px; margin-left:5px;}
 .menu_box a:hover{ background:#cd3333; color:#fff; text-decoration:none;}
-.index_page .menu_box .menu{ padding-left:225px; float:left;}
+.index_page .menu_box .menu{  float:left;}
  
 .menu{ float:left;}
 
