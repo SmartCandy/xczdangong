@@ -47,14 +47,13 @@
                 <!-- ICP 证书{if $icp_number} -->
                 {$lang.icp_number}:<a href="http://www.miibeian.gov.cn/" target="_blank">{$icp_number}</a><br />
                 <!-- 结束ICP 证书{/if} -->
-                {$copyright}
-                {$shop_address} {$shop_postcode}<br /> 
-                {foreach from=$lang.p_y item=pv}{$pv}{/foreach}{$licensed}<br />
-                <!-- {if $stats_code} -->
-                <div align="center">{$stats_code}</div>
-                <!-- {/if} -->
+                
+                版权所有 © 2015-2015  小策子弹弓网
+                <br />
+                Powered by 煜城工作室<br />
+ 
             </div>
-            <div align="center"><a href=" http://www.ecmoban.com" target="_blank"><img src="images/ecmoban.gif" alt="ECShop模板" /></a></div>
+           
             <div class="blank"></div>  
         </div>
 
