@@ -1,13 +1,3 @@
-/*
-Template Name: EC模板堂正版授权模板
-Template URI: http://www.ecmoban.com/
-Description: 买模板请认准模板堂(ecmoban.com) <br/> 挑选优质商业模板：http://www.ecmoban.com/
-Version: 2.73
-Author: 进模板堂挑选更多ECSHOP模板
-Author URI: http://www.ecmoban.com/
-Logo filename: logo.gif
-\\
-*/
 
 
 
@@ -113,7 +103,7 @@ visibility:hidden;
   /*布局*/
   .AreaL{width:214px; float:left; }
   
-  .index_page .AreaL{ position:relative;  margin-top:-51px; z-index:99999}
+  .index_page .AreaL{ position:relative; z-index:99999}
   
   .AreaR{width:895px; float:right;  }
 
@@ -274,7 +264,7 @@ font-size: 14px; font-weight:bold}
 .menu_box{ background:url(images/nav.png) repeat-x; height:51px; line-height:51px;}
 .menu_box a{line-height:51px; height:51px; float:left; color:#fff;font-size: 15px; padding:0 15px; margin-left:5px;}
 .menu_box a:hover{ background:#cd3333; color:#fff; text-decoration:none;}
-.index_page .menu_box .menu{ padding-left:225px; float:left;}
+.index_page .menu_box .menu{  float:left;}
  
 .menu{ float:left;}
 

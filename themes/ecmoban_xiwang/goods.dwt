@@ -144,9 +144,7 @@ function reg(str){
        <strong>{$lang.shop_price}</strong><font class="shop" id="ECS_SHOPPRICE">{$goods.shop_price_formated}</font>
    
 	   
-	   <!-- {if $cfg.show_marketprice} 市场价格-->
-       <font class="market">{$goods.market_price}</font> 
-       <!-- {/if} -->
+
        </dd>
        </li>
       
@@ -326,6 +324,9 @@ function reg(str){
            <li class="clearfix">
        <dd>
        <strong>{$lang.number}：</strong>
+
+         <!-- {* 商品总价 *} -->
+      
         <input name="number" type="text" id="number" value="1" size="4" onblur="changePrice()" style="border:1px solid #ccc; "/> <strong>{$lang.amount}：</strong><font id="ECS_GOODS_AMOUNT" class="f1"></font>
        </dd>
        </li>
@@ -653,7 +654,10 @@ function changePriceResponse(res)
     document.forms['ECS_FORMBUY'].elements['number'].value = res.qty;
 
     if (document.getElementById('ECS_GOODS_AMOUNT'))
+    {
       document.getElementById('ECS_GOODS_AMOUNT').innerHTML = res.result;
+      document.getElementById('ECS_SHOPPRICE').innerHTML = res.result;
+    }
   }
 }
 <!-- {/literal} -->
