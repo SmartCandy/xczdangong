@@ -149,13 +149,6 @@
           </td>
         </tr>
 	<!-- {else} -->
-        <tr>
-         
-          <td align="right" <!-- {if $field.is_need} -->id="extend_field{$field.id}i"<!--{/if}-->>{$field.reg_field_name}
-          <td>
-          <input name="extend_field{$field.id}" type="text" size="25" class="inputBg" /><!-- {if $field.is_need} --><span style="color:#FF0000"> *</span><!-- {/if} -->
-          </td>
-        </tr>
 	<!-- {/if} -->
 	<!-- {/foreach} -->
       <!-- 判断是否启用验证码{if $enabled_captcha} -->
@@ -182,9 +175,6 @@
         <tr>
           <td colspan="2">&nbsp;</td>
         </tr>
-                 <tr>
-                    <td bgcolor="#ffffff" colspan="2" align="center"><a href="user.php?act=qpassword_name" class="f6">{$lang.get_password_by_question}</a>   <a href="user.php?act=get_password" class="f6">{$lang.get_password_by_mail}</a></td>
-                  </tr>
 
       </table>
     </form>

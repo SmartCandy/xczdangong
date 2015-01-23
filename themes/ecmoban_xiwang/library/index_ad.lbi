@@ -20,10 +20,10 @@ body{
 	position:relative;margin:0;padding:0px 0 0 0;
 }
 .mF_liuzg {
-	background: rgb(255, 255, 255); font: 12px/1.5 Verdana, Geneva; margin: 30px auto; width: 916px; height: 450px; overflow: hidden; position: relative; font-size-adjust: none; font-stretch: normal;
+	background: rgb(255, 255, 255); font: 12px/1.5 Verdana, Geneva; margin: 5px auto; width: 916px; height: 400px; overflow: hidden; position: relative; font-size-adjust: none; font-stretch: normal;
 }
 .mF_liuzg .loading {
-	background: rgb(44, 44, 44); width: 100%; height: 450px; text-align: center; color: rgb(255, 255, 255); line-height: 450px; vertical-align: middle; position: absolute; z-index: 9999;
+	background: rgb(44, 44, 44); width: 100%; height: 400px; text-align: center; color: rgb(255, 255, 255); line-height: 450px; vertical-align: middle; position: absolute; z-index: 9999;
 }
 .mF_liuzg .pic li {
 	width: 916px; overflow: hidden; position: relative;
@@ -35,7 +35,7 @@ body{
 	display: block;
 }
 .mF_liuzg .pic li p img {
-	width: 916px; height: 450px;
+	width: 916px; height:450px;
 }
 .mF_liuzg .txt li {
 	width: 916px; height: 36px; bottom: 0px; line-height: 36px; overflow: hidden; display: none; position: absolute; z-index: 2;
@@ -208,7 +208,7 @@ myFocus.setting({
   style: 'mF_liuzg', //style为风格样式，
   id: 'myFocus', //焦点图ID
   chip: 8, //图片切片数量，能被焦点图的高整除才有效，默认为8片
-  type: 2, //切片效果，1为甩头，2为甩尾，3为凌乱，4为随机效果
+  type: 4, //切片效果，1为甩头，2为甩尾，3为凌乱，4为随机效果
   time: 4 //每帧图片时间间隔
 });
 // var $ = function (id) {

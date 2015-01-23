@@ -18,7 +18,6 @@
 </head>
 <body class="index_page">
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
-<div style="height:51px;"></div>
 <div class="block clearfix">
 <div class="AreaL">
 <!-- #BeginLibraryItem "/library/category_tree_index.lbi" -->
@@ -56,7 +55,7 @@
     <!--AD end-->
   </div>
 
-<div style="float:right; width:916px;"> 
+<div style="float:right; width:916px; height:450px;"> 
 <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
  
  
